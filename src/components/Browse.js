@@ -1,7 +1,20 @@
-import React from "react";
+import Header from "./Header";
+import useMovies from "./hooks/useMovies";
+import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
+import { useSelector } from "react-redux";
 
-function Browse() {
-  return <div>Browse</div>;
-}
+const Browse = () => {
+  useMovies();
 
+  return (
+    <div>
+      <>
+        <Header />
+        <MainContainer />
+        <SecondaryContainer />
+      </>
+    </div>
+  );
+};
 export default Browse;
