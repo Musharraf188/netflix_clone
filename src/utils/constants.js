@@ -7,6 +7,8 @@ export const USER_ICON =
 export const NETFLIX_LOGO =
   "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
 
+export const TMDB_IMG = "https://image.tmdb.org/t/p/w500/";
+
 export const API_OPTIONS = {
   method: "GET",
   headers: {
@@ -15,3 +17,9 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YWQyZDEwYzc3OTU5ZWNhNTI3OTAyNTAyODAyNWMxYiIsIm5iZiI6MTczNTEzMzk0My42NDgsInN1YiI6IjY3NmMwYWY3NmE0NTYzMGVmYjdlYjFiMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.g5g8D7-e8vzxFfhhjVjbJS5GTHH9lSwTjPx_DnBwYIU",
   },
 };
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hn", name: "Hindi" },
+  { identifier: "sh", name: "Spanich" },
+];

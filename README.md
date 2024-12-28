@@ -28,6 +28,15 @@
 - update store with trailer video data
 - Embded youtube video muted it
 - tailwind classes for main container
+- Build Secondary component
+- Build movie list
+- Build movie card
+- TMDB image CDN URL
+- Mode the browse page amazing with tailwind css
+- usePopuar Custom Hook
+- GPT Search page
+- (\*) Multi languge feature in our app
+- Integrate GPT API
 
 # Features
 
